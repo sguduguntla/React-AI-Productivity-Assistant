@@ -1,0 +1,312 @@
+html, body {
+    background-color: #18181b;
+	color: white;
+	overflow: scroll;
+}
+
+.ai-animation {
+    width: 400px;
+    height: 300px;
+    border-radius: 150%;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+hr {
+    border-color: white !important;
+}
+
+.card {
+    padding: 30px;
+}
+
+.loginCard {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #384a84 !important;
+}
+
+.btn {
+    border: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    height: 40px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    font-size: 0.8em;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    background-color: #303f72 !important;
+}
+
+input {
+    border: none !important;
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    border-radius: 5px !important;
+    color: white !important;
+}
+
+
+input::placeholder {
+    color: #ccc !important;
+}
+
+input:focus {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    transition: background-color 0.3s ease;
+}
+
+.todoInput {
+    border: none !important;
+    background: transparent !important;
+    border-bottom: 1px solid gray !important;
+}
+
+.todoInput:focus {
+    background-color: none !important;
+    transition: none !important;
+}
+
+.site-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.site-table td {
+     /* CSS 3 */
+     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.widget {
+	background-color: #1C243F;
+	height: 400px;
+	overflow-y:auto;
+}
+
+.widget > .card-header {
+    background-color: #1C243F;
+}
+
+.nav {
+    border: none !important;
+}
+
+.nav-link:hover {
+    border: none !important;
+    cursor: pointer;
+    background-color: white !important;
+    color: black !important;
+}
+
+.nav-item {
+    background: #1C243F !important;
+    border: none !important;
+}
+
+.nav-item:hover {
+    border: none !important;
+}
+
+.active {
+    background-color: #1C243F !important;
+    color: white !important;
+    border: none !important;
+}
+
+.active:hover {
+    border: none !important;
+}
+
+.scheduleModal {
+    color: black;
+}
+
+input {
+    color: black !important;
+}
+
+
+
+
+
+
+@font-face {
+	font-family: "SF UI";
+	src: url("../assets/fonts/SF-UI-Text-Heavy.otf");
+}
+@font-face {
+	font-family: "Avenir";
+	src: url("../assets/fonts/Avenir.ttc");
+}
+@font-face {
+	font-family: "Avenir Heavy";
+	src: url("../assets/fonts/Avenir-Heavy.ttf");
+}
+@font-face {
+	font-family: "Avenir Medium";
+	src: url("../assets/fonts/Avenir-Medium.ttf");
+}
+
+body {
+	background-color: #18181b;
+	overflow:hidden;
+}
+
+.site-history-widget {
+	border-radius: 10px;
+	background-color: #1c243f;
+    width: 540px;
+    margin: 0 auto;
+	top: 0;
+	right: 0;
+	position: absolute;
+	height: 300px;
+	overflow-y:auto;
+	overflow-x: hidden;
+	padding-top: 0;
+	max-width: 100%;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+ul {
+	padding: 0;
+	padding-bottom: 100px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.todoWidget {
+	border-radius: 10px;
+	background-color: #1c243f;
+    width: 540px;
+	margin: 0 auto;
+	top: 100px;
+	left: 0;
+	margin-left: 40px;
+	margin-top: 50px;
+	height: 540px;
+	overflow-y:auto;
+	overflow-x: hidden;
+	max-width: 100%;
+}
+
+.title {
+	font-family: 'SF UI';
+	font-size: 29px;
+	color: #97abcd;
+	padding-left: 24px;
+	padding-top: 10px;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.addProjectButton {
+	float: right;
+	margin-right: 20px;
+	margin-top: -24px;
+    cursor: pointer;
+    background: none !important;
+}
+
+.addTodoButton {
+	float: right;
+	margin-right: 20px;
+	margin-top: -24px;
+	cursor: pointer;
+    width: 24px;
+    background: none !important;
+}
+
+input:focus {
+	outline:0;
+}
+
+.subtitle {
+	font-family: 'Avenir Heavy';
+	font-weight: bold;
+	font-size: 13px;
+	color: #97abcd;
+	padding-left: 24px;
+	margin-top: 0;
+}
+
+.todoHeader {
+	font-family: 'Avenir-Heavy';
+	color: #97abcd;
+	background-color: #2e3657;
+	box-shadow: 0px 1px 10px #1518227c;
+	list-style-type: none;
+	border-radius: 6px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	margin-left: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 26px;
+	width: 97%;
+	text-transform: uppercase;
+}
+
+.todo {
+	font-family: 'Avenir-Medium';
+	color: #020202;
+	box-shadow: 0px 1px 10px #1518227e;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 60px;
+	background-color: #798de4;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	cursor: pointer;
+	border-radius: 0 0 6px 6px;
+}
+
+.todoText {
+	padding-left: 22px;
+	pointer-events: none;
+}
+
+.todoImage {
+	padding-left: 20px;
+	float: left;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.detailButton {
+	float: right;
+	padding: 0;
+	font-size: 10px;
+	text-decoration: underline;
+    text-align: right;
+	width: 100px;
+	margin-right: 10px;
+	pointer-events: none;
+}
+
+
+
+
